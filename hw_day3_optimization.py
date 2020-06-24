@@ -51,8 +51,6 @@ def preprocess():
     # assign variables with the proper file path for train and test set
     train_dir = os.path.join(os.getcwd(), 'train')
     test_dir = os.path.join(os.getcwd(), 'test')
-    # train_dir = "C:\\Users\\Student\\Downloads\\5857_1166105_bundle_archive\\fruits-360\\Training"
-    # test_dir = "C:\\Users\\Student\\Downloads\\5857_1166105_bundle_archive\\fruits-360\\Test"
 
     # convert all the images in a directory into a format that tensorflow
     # can work with
